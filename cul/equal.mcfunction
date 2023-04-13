@@ -8,3 +8,4 @@ scoreboard players set input cul 0
 scoreboard players set digit cul 0
 scoreboard players set register cul 0
 scoreboard players set mode cul 0
+scoreboard players set cul_eq_ani cul 5
