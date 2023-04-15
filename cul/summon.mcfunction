@@ -229,7 +229,6 @@ execute at @e[tag=cul_clr] run tp @e[tag=cul_clr] ~ ~ ~ ~180 ~
 
 
 execute at @e[type=block_display,tag=cul_dis] run summon minecraft:text_display ~0.075 ~0.02 ~ {text:'{"score":{"name":"equal","objective":"cul"},"color":"black","bold":true}',background:24,Tags:["cul_disr"]}
-data modify entity @e[tag=cul_disr,limit=1] alignment set value "right"
 data modify entity @e[tag=cul_disr,limit=1] transformation.scale set value [0.04f,0.07f,0.07f]
 data modify entity @e[tag=cul_disr,limit=1] transformation.left_rotation set value [1.0f,0.0f,0.0f,-1.0f]
 execute at @e[tag=cul_disr] run tp @e[tag=cul_disr] ~ ~ ~ ~180 ~
