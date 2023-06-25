@@ -1,3 +1,5 @@
+function cul:cul/kill
+
 summon minecraft:block_display ~ ~1 ~ {Tags:["cul_base"],block_state:{Name:"white_concrete"}}
 data modify entity @e[type=block_display,tag=cul_base,limit=1] transformation.scale set value [0.2f,0.02f,0.28f]
 
